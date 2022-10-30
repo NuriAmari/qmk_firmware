@@ -52,3 +52,5 @@
 // Encoders are defined in order. 1: B2 & B3, 2: B4 & B5, 3: D0 & D1, 4: D2 & D3
 #define ENCODERS_PAD_A { B2, B4, D0, D3 }
 #define ENCODERS_PAD_B { B3, B5, D1, D2 }
+
+#define UNICODE_SELECTED_MODES UC_MAC

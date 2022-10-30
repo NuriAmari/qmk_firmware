@@ -457,3 +457,8 @@ distclean: clean
 	echo -n 'Deleting *.bin, *.hex, and *.uf2 ... '
 	rm -f *.bin *.hex *.uf2
 	echo 'done.'
+
+kallen:
+	qmk compile -kb nullbitsco/tidbit -km kallen-macro-pad
+kallen-flash:
+	qmk flash -kb nullbitsco/tidbit -km kallen-macro-pad

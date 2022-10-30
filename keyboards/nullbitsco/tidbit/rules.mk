@@ -18,6 +18,7 @@ RGBLIGHT_ENABLE = yes       # Enable keyboard RGB underglow
 AUDIO_ENABLE = no           # Audio output
 ENCODER_ENABLE = yes
 LTO_ENABLE = yes
+UNICODEMAP_ENABLE = yes
 
 # Project specific files
 SRC += common/bitc_led.c \
